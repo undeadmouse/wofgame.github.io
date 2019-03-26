@@ -519,8 +519,8 @@ var init = function(){
 	$("#buy-ticket-action").click(function(){
 		if(!checkAll()){return;}
 		try{
-			if($(".ticket-ethinput").val() < 0.01){
-				alertify.error(tipl[18] + " 0.01 ETH");
+			if($(".ticket-ethinput").val() < 100){
+				alertify.error(tipl[18] + " 100 ETH");
 				return;
 			}
 			var etherValue = web3.utils.toWei($(".ticket-ethinput").val()+"", 'ether');
