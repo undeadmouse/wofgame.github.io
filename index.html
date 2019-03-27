@@ -395,12 +395,8 @@ var parterCanWd = 0;
 var defaultAccount = "";
 var isStart = false;
 
-var tipl = ["這是壹個測試，請使用ropsten測試網！", "請使用正式以太坊主網！", 
-	"對於Chrome、Firefox請下載 <a style='color:#fcd21c;font-size:18px;' href='https://metamask.io/'>metamask</a> 或 手機端下載 <a style='color:#fcd21c;font-size:18px;' href='https://trustwalletapp.com/'>trustwallet</a> ！", 
-	"請先登錄 Metamask 或 trustwallet！", "請選擇正確的以太網絡！", 
-	"復制成功：", "請輸入正確的推薦人", "最小投資額為 1！", "妳的存款總額必須大於1才可復投！", "你復投的金額必須大於你的存款總額！",
-	"你的存款總額必須大於0.01才可提現！", "你的門票不足 ", "無效的推薦人，請確認推薦人已參與！", "已經存在推薦人了", "無效的推薦人，請確認推薦人參與了財富之旅", "妳已經被綁定為推薦人，無法註冊", "妳的上筆投資尚有收益，請等待收益完成後再次投資!","數據加載中，請稍後...","最小起購","請確認妳的輸入是否正確"];
-	
+var tipl = ["This is a test, please use the ropsten test network!", "Please use the official Ethereum main network!", "For Chrome, Firefox please download <a style='color:#fcd21c;font-size:18px;' href=' Https://metamask.io/'>metamask</a> or mobile phone download <a style='color:#fcd21c;font-size:18px;' href='https://trustwalletapp.com/'>trustwallet</a> !", "Please login to Metamask or trustwallet!", "Please select the correct Ethernet network!", "Successful copy:", "Please enter the correct referrer", "The minimum investment amount is 1!", "Your total deposit must be greater than 1 before re-investment!", "The amount of your re-investment must be less than your total deposit amount!",
+	"Your total deposit must be greater than 0.01 before it can be withdrawn!", "Your ticket is not enough ", "Invalid referrer, please confirm that the referrer has participated","There are already recommenders","Invalid referrer, please confirm that the referee is involved in the wealth journey","You have been tied as a referrer and cannot register", "Your investment in the investment still has a profit, please wait for the income to be completed and then invest again!", "Data loading, please wait...", "Minimum purchase", "Please confirm that your input is correct"];	
 var checkNet = function(){
 	if(isStart)return;
 	console.log("init web3...");
